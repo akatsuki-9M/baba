@@ -1,10 +1,12 @@
-#include <iostream>
+   #include <iostream>
 using namespace std;
 
 int main(){
    int num;
-   cout << "Enter a Number: ";
+   int n;
+   cout << "Write a Number ";
    cin >> num;
+   cin >> n;
    cout <<"this is the number:" << num;
    return 0;
 }
