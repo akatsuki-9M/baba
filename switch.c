@@ -28,13 +28,18 @@ void default_case() {
 int main() {
     int x = 2;
     
-    void (*jump_table[3])() = {case_1, case_2, default_case};
-    
-    if (x >= 1 && x <= 2) {
-        jump_table[x - 1]();
-    } else {
-        jump_table[2]();
+    switch (x) {
+        case 1:
+            case_1();
+            break;
+        case 2:
+            case_2();
+            break;
+        default:
+            default_case();
+            break;
     }
     
     return 0;
 }
+
