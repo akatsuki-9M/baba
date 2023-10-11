@@ -12,6 +12,7 @@
 //  execute the statements associated with that case label.
 
 #include <stdio.h>
+// using case method
 
 void case_1() {
     printf("x is 1\n");
@@ -27,7 +28,7 @@ void default_case() {
 
 int main() {
     int x = 2;
-    
+    // using the switch case
     switch (x) {
         case 1:
             case_1();
@@ -42,4 +43,4 @@ int main() {
     
     return 0;
 }
-
+// end of the program
