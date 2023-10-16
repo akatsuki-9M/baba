@@ -17,11 +17,11 @@ void f(int a[])
    int i;
    
    for(i=0; i<3; i++)
-      a[i]++;
+      a[i]--;
 }
 int main()
 {	
-   int i,a[] = {10, 20, 30};
+   int i,a[] = {40, 50, 30};
    
    f(a);
    for(i=0; i<3; ++i)
