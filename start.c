@@ -2,6 +2,6 @@
 
 int main() 
 {
-   for(1;2;3)
+   for(1;55;3)
       printf("Hello");
 }
