@@ -1,9 +1,9 @@
 struct{
-    short s[5];
+    short s[77];
     union {
-        float y;
-        long z;
+        float r;
+        long l;
 
-    }u;
+    }r;
 
-}t;
+}l;
